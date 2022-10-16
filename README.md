@@ -1,10 +1,18 @@
-# Svelte + Vite
+# 스벨트, 새퍼 인 액션
 
-This template should help get you started developing with Svelte in Vite.
+스벨트 공부 시작 (2022-10-16)
 
-## Recommended IDE Setup
+## VScode 선 작업 과정
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+### 설정 파일 오픈(settings.json)
+
+```js
+// prettier 관련 설정 추가
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"editor.formatOnSave": true
+```
+
+<!-- [VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
 
 ## Need an official Svelte framework?
 
@@ -43,6 +51,6 @@ If you have state that's important to retain within a component, consider creati
 ```js
 // store.js
 // An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
+import {writable} from 'svelte/store';
+export default writable(0);
+``` -->
