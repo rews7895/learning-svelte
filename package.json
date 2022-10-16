@@ -1,0 +1,23 @@
+{
+  "name": "learning-svelte",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --fix --quiet src --ext .js,.svelte",
+    "format": "prettier --write '{public,src}/**/*.{css,html,js,svelte}'"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.2",
+    "eslint": "^8.25.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-svelte": "^2.8.0",
+    "svelte": "^3.49.0",
+    "vite": "^3.1.0"
+  }
+}
