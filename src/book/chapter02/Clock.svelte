@@ -1,5 +1,5 @@
 <script>
-  export let color = 'blue';
+  export let color = 'white';
   let hhmmss = '';
   setInterval(() => {
     hhmmss = new Date().toLocaleTimeString();

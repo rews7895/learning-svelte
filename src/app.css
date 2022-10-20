@@ -79,7 +79,8 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
 .component-split {
-  border: 2px solid yellow;
+  border-bottom: 2px solid white;
   padding: 10px;
 }
