@@ -4,6 +4,9 @@
   import TodoList from './todo/TodoList.svelte';
 </script>
 
-<HelloWorld />
-<Clock />
-<TodoList />
+<div>
+  <h2>Chapter 02</h2>
+  <HelloWorld />
+  <Clock />
+  <TodoList />
+</div>
