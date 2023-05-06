@@ -5,6 +5,7 @@
   import Chapter05 from './book/chapter05/Chapter05.svelte';
   import Chapter06 from './book/chapter06/Chapter06.svelte';
   import Chapter07 from './book/chapter07/Chapter07.svelte';
+  import Chapter08 from './book/chapter08/Chapter08.svelte';
 </script>
 
 <Chapter02 />
@@ -12,3 +13,4 @@
 <Chapter05 />
 <Chapter06 />
 <Chapter07 />
+<Chapter08 />
